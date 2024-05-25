@@ -1,0 +1,70 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #ff4081; /* Vibrant header background color */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Entry form styles */
+.entry-form {
+    margin-bottom: 20px;
+}
+
+.entry-form h2 {
+    margin-bottom: 10px;
+}
+
+.entry-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.entry-form button {
+    padding: 10px 20px;
+    background-color: #ff4081; /* Vibrant button color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Participants list styles */
+.participants-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.participants-list li {
+    margin-bottom: 5px;
+}
+
+/* Winner display styles */
+.winner-display {
+    margin-bottom: 20px;
+}
+
+/* Draw button styles */
+#drawButton {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #f50057; /* Complementary button color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
